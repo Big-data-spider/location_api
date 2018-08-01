@@ -7,6 +7,7 @@ import requests
 import re
 
 
+
 def get_addr(com_name):
     key = '2AuUSWRQArFyXa4w0YlKE3mg4yGvPaHc'
     search_info = com_name.replace(' ', '')
@@ -27,4 +28,4 @@ def get_addr(com_name):
 
     return output
 
-# get_addr('重庆南岸区海棠晓月')
+
